@@ -4,9 +4,11 @@ Milestone_1_writeup.md
 
 ## Project Statement / Central Question
 
-**Can we use an name-based ethnicity classification model on public voting records to (1) draw conclusions about minority voting behavior and (2) apply this model to voter turnout of minority ethnicities?**
+**Can we build a classification model on public voting records to (1) predict voter turnout (2) draw conclusions about minority voting behavior and (3) apply this model to voter turnout of minority ethnicities?**
 
 ### Sub-Questions:
+
+We will first build a baseline model to predict voter turnout. Then, we will try to improve this model by adding a classificiation model to predict ethnicity, and then again predict voter turnout. 
 
 1) **Ethnicity Classification**
     * What is the ideal classification model for name-ethnicity analysis?
@@ -34,7 +36,7 @@ Milestone_1_writeup.md
 Voter Registration File and Voter History for:
 * Florida (> 8 million voters, > 250 million data points)
 
-We will focus on **Florida** primarily, as it is a swing state so it's an interesting case. Our findings may have an impact on electoral politics as candidates can leverage a stronger understanding of minority voting behavior to improve and target their campaigns.
+We will focus on **Florida** primarily, as it is a swing state. Voter turnout is particularly pushed for by politicians in swin states like Florida. Florida is also very split ethnically, as southern Florida is diverse (large minority population) while the counties north tend to vary or be predominantly white. Our findings may have an impact on electoral politics as candidates can leverage a stronger understanding of minority voting behavior to improve and target their campaigns.
 
 ## Preliminary EDA (Pre-Classification)
 Are there voter/election characteristics that correlate with turnout?
