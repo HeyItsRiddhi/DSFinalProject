@@ -4,7 +4,7 @@ Milestone_1_writeup.md
 
 ## Project Statement / Central Question
 
-**Can we use an name-based ethnicity classification model on public voting records to (1) draw conclusions about minority voting behavior and (2) build a model that predicts voter turnout?**
+**Can we use an name-based ethnicity classification model on public voting records to (1) draw conclusions about minority voting behavior and (2) apply this model to voter turnout of minority ethnicities?**
 
 ### Sub-Questions:
 
@@ -33,9 +33,8 @@ Milestone_1_writeup.md
 
 Voter Registration File and Voter History for:
 * Florida (> 8 million voters, > 250 million data points)
-* North Carolina
 
-We will focus on **Florida** primarily, as it is a swing state so it's an interesting case. Our findings may have an impact on electoral politics as candidates can leverage a stronger understanding of minorty voting behavior to improve and target their campaigns.
+We will focus on **Florida** primarily, as it is a swing state so it's an interesting case. Our findings may have an impact on electoral politics as candidates can leverage a stronger understanding of minority voting behavior to improve and target their campaigns.
 
 ## Preliminary EDA (Pre-Classification)
 Are there voter/election characteristics that correlate with turnout?
@@ -50,5 +49,10 @@ Are there voter/election characteristics that correlate with turnout?
 Are there any inconsistencies / considerations in the data that may affect our results?
 - How do we treat "uncounted" ballots. Are there enough of these cases to affect our findings?
 
+These EDAs are important analyses to set up, because we can return to these analyses later and run them for each ethnicity to understand how these factors may vary.
 
-These EDAs are important analyses to set up, because we can return to these analyses later and run them for each ethnicity to understand how these factors may vary 
+## The Path
+- Create a base model with without ethnicity exploring the data in our dataset i.e age to voter turn out.
+- Create a data set of names and ethnicity and a preliminary model 
+- Optimize that model such that we get more name to ethnicity matches
+- Use model to analyze minority voter turnout
