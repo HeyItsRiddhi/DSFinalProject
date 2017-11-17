@@ -1,0 +1,33 @@
+
+https://github.com/cs109/a-2017/blob/master/Projects/ProjectGuidelines.pdf
+
+
+Project statement:
+
+Predicting voter turnout among ethnic groups using a name-based nationality classifier on voter data without racial information.
+
+Questions:
+
+Can we classify indiv. by race (high precision, low recall)
+How did turnout among minority voters compare in 2016 to earlier years? 
+What is the probability that a certain ethnic group voted?
+How do certain ethnic groups vote? Are there differences? (i.e. latinos in Miami are sometimes republican because theyre cuban, but otherwise latinos generally vote dem)
+What factors are best at predicting voter turnout (did they turnout v not…then do anaysis )
+How do our results compare to predicted polls?
+
+EDA
+Are there other trends related to voter turnout?
+- age
+- political party
+- urban/suburban
+- Absentee 
+- Certain Elections (primary, general, etc)
+- years since got a voter ID (i.e. are people who just got their voter registration more likely to vote?)
+
+
+Note for you guys: If I do a lot of the data cleaning, and creating a matched DF of all of Florida, 
+do you mind if I lend you guys the EDA and then sit out? So I would do more work this weekend, 
+and then less work over the upcoming week. I see now that combining all the counties and matching will take a while :)
+
+
+
