@@ -12,33 +12,32 @@ The majority of information we have about minority voting is collected through n
 
 ### Sub-Questions:
 
-(A) Ethnicity Classification
-	(i) What is the ideal classification model for name-ethnicity analysis?
-	(ii) How can we tune the model's parameters to give us strong conclusions. 
+1) **Ethnicity Classification**
+    * What is the ideal classification model for name-ethnicity analysis?
+    * How can we tune the model's parameters to give us strong conclusions. 
 		(Example: Is it preferrable to have high precision, low recall for each ethnicity? Is it better to "ignore" datapoints that are hard to classify?)
-	(iii) How can we evaluate the model?
+    * How can we evaluate the model?
 
-(B) Voter Analysis by Ethnicity
-	(i) How did turnout among minority voters compare in 2016 to earlier years? 
-	(ii) What is the probability that a member of a certain ethnic group voted?
-	(iii) How do certain ethnic groups vote (to the extent we can tell from party registration data)? Are there differences? 
+2) **Voter Analysis by Ethnicity**
+    * How did turnout among minority voters compare in 2016 to earlier years? 
+    * What is the probability that a member of a certain ethnic group voted?
+    * How do certain ethnic groups vote (to the extent we can tell from party registration data)? Are there differences? 
 
-(C) Predictive Analysis
-	(i) What factors are best at predicting an individual voter's turnout?
-		(a) Have these changed over time?
-		(b) Do these factors vary between ethnicities?
-	(ii)
+3) **Predictive Analysis**
+    * What factors are best at predicting an individual voter's turnout?
+      * Have these changed over time?
+      * Do these factors vary between ethnicities?
 
-(D) Evaluation of model
-	(i) How does classification perform on the test set?
-	(ii) How does turnout prediction perform on the test set?
-	(iii) How do our results compare to predicted polls?
+4) **Evaluation of model**
+    * How does classification perform on the test set?
+    * How does turnout prediction perform on the test set?
+    * How do our results compare to predicted polls?
 
 ### Datasets Available
 
 Voter Registration File and Voter History for:
-(A) Florida (> 8 million voters, > 250 million data points)
-(B) North Carolina
+* Florida (> 8 million voters, > 250 million data points)
+* North Carolina
 
 We will focus on **Florida** primarily, as it is a swing state so it's an interesting case. Our findings may have an impact on electoral politics as candidates can leverage a stronger understanding of minorty voting behavior to improve and target their campaigns.
 
