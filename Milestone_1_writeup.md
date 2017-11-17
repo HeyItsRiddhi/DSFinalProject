@@ -56,3 +56,5 @@ These EDAs are important analyses to set up, because we can return to these anal
 - Create a data set of names and ethnicity and a preliminary model 
 - Optimize that model such that we get more name to ethnicity matches
 - Use model to analyze minority voter turnout
+
+The core focus of this project will be data munching for ethnic data and then applying that to voter turnout!
