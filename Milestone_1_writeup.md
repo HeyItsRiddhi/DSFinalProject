@@ -2,11 +2,7 @@ Milestone_1_writeup.md
 
 # Understanding Minority Voting in the United States
 
-## Project statement:
-
-The majority of information we have about minority voting is collected through non-representative phone surveys. Reseraches struggle to discern differences
-
-### Central Question
+## Project Statement / Central Question
 
 **Can we use an name-based ethnicity classification model on public voting records to (1) draw conclusions about minority voting behavior and (2) build a model that predicts voter turnout?**
 
