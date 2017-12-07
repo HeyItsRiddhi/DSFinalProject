@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="age <= 39.5\ngini = 0.5\nsamples = 16356\nvalue = [8178, 8178]\nclass = 0.0", fillcolor="#e5813900"] ;
+1 [label="age <= 28.5\ngini = 0.4131\nsamples = 7025\nvalue = [4977, 2048]\nclass = 0.0", fillcolor="#e5813996"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="age <= 18.5\ngini = 0.332\nsamples = 4159\nvalue = [3285, 874]\nclass = 0.0", fillcolor="#e58139bb"] ;
+1 -> 2 ;
+3 [label="gini = 0.0\nsamples = 400\nvalue = [400, 0]\nclass = 0.0", fillcolor="#e58139ff"] ;
+2 -> 3 ;
+4 [label="gini = 0.3569\nsamples = 3759\nvalue = [2885, 874]\nclass = 0.0", fillcolor="#e58139b2"] ;
+2 -> 4 ;
+5 [label="party_NPA <= 0.5\ngini = 0.4837\nsamples = 2866\nvalue = [1692, 1174]\nclass = 0.0", fillcolor="#e581394e"] ;
+1 -> 5 ;
+6 [label="gini = 0.4997\nsamples = 1726\nvalue = [884, 842]\nclass = 0.0", fillcolor="#e581390c"] ;
+5 -> 6 ;
+7 [label="gini = 0.4128\nsamples = 1140\nvalue = [808, 332]\nclass = 0.0", fillcolor="#e5813996"] ;
+5 -> 7 ;
+8 [label="party_NPA <= 0.5\ngini = 0.4507\nsamples = 9331\nvalue = [3201, 6130]\nclass = 1.0", fillcolor="#399de57a"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="age <= 58.5\ngini = 0.4022\nsamples = 6964\nvalue = [1942, 5022]\nclass = 1.0", fillcolor="#399de59c"] ;
+8 -> 9 ;
+10 [label="gini = 0.4579\nsamples = 3186\nvalue = [1131, 2055]\nclass = 1.0", fillcolor="#399de573"] ;
+9 -> 10 ;
+11 [label="gini = 0.3372\nsamples = 3778\nvalue = [811, 2967]\nclass = 1.0", fillcolor="#399de5b9"] ;
+9 -> 11 ;
+12 [label="age <= 55.5\ngini = 0.498\nsamples = 2367\nvalue = [1259, 1108]\nclass = 0.0", fillcolor="#e581391f"] ;
+8 -> 12 ;
+13 [label="gini = 0.4783\nsamples = 1172\nvalue = [708, 464]\nclass = 0.0", fillcolor="#e5813958"] ;
+12 -> 13 ;
+14 [label="gini = 0.497\nsamples = 1195\nvalue = [551, 644]\nclass = 1.0", fillcolor="#399de525"] ;
+12 -> 14 ;
+}
